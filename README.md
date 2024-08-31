@@ -44,7 +44,7 @@ Jal : R[7]=PC+2;PC=JumpAddr
 
 SLTI: R[rt] = 1 if R[rs] < imm else 0
 
-Test Codes
+# Test Codes
 
 R type Instructions Test Code
 
