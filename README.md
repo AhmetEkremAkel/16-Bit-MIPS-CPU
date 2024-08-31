@@ -120,5 +120,4 @@ C094
 
 B805
 
-
-
+J and I type Instruction Test Codes must not be tested by writing one after the other.
