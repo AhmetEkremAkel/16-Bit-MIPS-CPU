@@ -19,17 +19,29 @@ Here are the compleate ISA :
 Here are the description for instructions :
 
 Add : R[rd] = R[rs] + R[rt]
+
 Subtract : R[rd] = R[rs] - R[rt]
+
 And: R[rd] = R[rs] & R[rt]
+
 Or : R[rd] = R[rs] | R[rt]
+
 SLT: R[rd] = 1 if R[rs] <  R[rt] else 0
+
 Jr: PC=R[rs]
+
 Lw: R[rt] = M[R[rs]+SignExtImm]
+
 Sw : M[R[rs]+SignExtImm] = R[rt]
+
 Beq : if(R[rs]==R[rt]) PC=PC+1+BranchAddr
+
 Addi: R[rt] = R[rs] + SignExtImm
+
 J :  PC=JumpAddr
+
 Jal : R[7]=PC+2;PC=JumpAddr
+
 SLTI: R[rt] = 1 if R[rs] < imm else 0
 
 Test Codes
