@@ -49,45 +49,76 @@ SLTI: R[rt] = 1 if R[rs] < imm else 0
 R type Instructions Test Code
 
 lw $0 0 ($0)
+
 lw $1 1 ($1)
+
 add $2 $1 $0
+
 sub $3 $1 $0
+
 and $4 $1 $0
+
 or $5 $1 $0
+
 slt $6 $1 $0
+
 addi $7 $0 20
+
 slti $7 $1 40
+
 
 Hexadecimal Code
 
 8000
+
 8481
+
 0420
+
 0431
+
 0442
+
 0453
+
 0464
+
 E394
+
 27A8
 
 J and I type Instructions Test Code
 
 lw $0 0 ($0)
+
 lw $1 1 ($1)
+
 jr  $0
+
 j   (7)
+
 jal (15)
+
 beq $0 $1 20
+
 sw $6 5 $0
+
 
 Hexadecimal Code
 
 8000
+
 8481
+
 8
+
 4007
+
 610C
+
 C094
+
 B805
+
 
 
